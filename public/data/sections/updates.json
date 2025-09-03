@@ -20,7 +20,6 @@
         "order_items_sort": "asc"
       },
       "items": [
-       
         {
           "id": 1,
           "img": null,
@@ -45,7 +44,7 @@
             }
           }
         },
-        
+
         {
           "id": 3,
           "img": null,
@@ -99,131 +98,65 @@
       "items": [
         {
           "id": 1,
-          "date": { "year": 2022, "month": 9 },
-          "preview": {
-            "links": [],
-            "screenshots": [],
-            "screenshotsAspectRatio": "",
-            "youtubeVideo": ""
-          },
+          "date": { "year": 2025, "month": 5 },
           "locales": {
             "en": {
-              "title": "Relocating to {{California!}}",
-              "province": "Ontario",
-              "country": "Canada",
+              "title": "Comparative Analysis of CNN Architectures for Eye Disease Diagnosis Using Retinal Images",
+              "province": "Accepted",
+              "country": "CONFERENCE (MECON-2025)",
               "institution": "",
-              "text": "I’ve recently made the move to California, USA, to explore new opportunities, both professionally and personally. I’m looking forward to discovering what this vibrant state has to offer and embracing all the challenges and experiences that come with this new chapter in my life. Excited for what’s ahead! Stay tuned for updates on my journey and the adventures that await in the Golden State!"
+              "text": "Detecting eye diseases is crucial in medical diagnostics, particularly for preventing vision loss or blindness through timely intervention. This study aims to find the most effective DL model for the automated classification of common eye conditions from retinal fundus images. Specifically, we evaluate five advanced Convolutional Neural Network (CNN) architectures DenseNet201, MobileNetV2, NASNetMobile, ResNet50V2, and Xception, for classifying six eye diseases (Diabetic Retinopathy, Disc Oedema, Macular Degeneration, Myopia, Retinal Detachment, and Retinitis Pigmentosa) along with healthy cases. A total of 4,200 labeled fundus images were used, and transfer learning with fine-tuning was performed to optimize each model. The review process involved measuring classification accuracy, precision, recall, and F1-score. DenseNet201 got the best performance, with the highest test accuracy of 98.0% and superior metrics across all disease classes. While ResNet50V2 and Xception also showed strong performance, MobileNetV2 and NASNetMobile offered competitive results with lower computational cost, making them suitable for deployment in resource-constrained environments. This study shows the potential of CNNs to support clinical decision-making in ophthalmology and highlights directions for future work in model interpretability and generalizability using ensemble techniques and larger datasets."
             }
           }
         },
         {
           "id": 2,
           "date": { "year": 2023, "month": 6 },
-          "preview": {
-            "links": [
-              {
-                "href": "https://www.youtube.com/@jomakaze",
-                "tooltipString": "open_website",
-                "faIcon": "fa-solid fa-eye"
-              }
-            ],
-            "screenshots": [],
-            "screenshotsAspectRatio": "",
-            "youtubeVideo": "https://www.youtube.com/watch?v=oFCy3vEIAQk"
-          },
           "locales": {
             "en": {
-              "title": "Started my own {{Youtube Channel!}}",
-              "province": "California",
-              "country": "US",
+              "title": "A Novel CWT-CNN Framework for Driver Fatigue Detection from EEG Signals",
+              "province": "Accepted",
+              "country": "CONFERENCE (MECON-2025)",
               "institution": "",
-              "text": "I’m thrilled to announce the launch of my own YouTube channel! 🎥✨ Join me on this exciting journey as I share my passion for technology, coding, and all things digital. From tutorials and tips to project showcases, I can’t wait to connect with you all through this platform. Don’t forget to subscribe and hit the notification bell to stay updated on my latest videos. Let’s embark on this adventure together!"
+              "text": "Fatigued driving has been a significant contributor to traffic accidents globally posing serious threats to both human life and economic stability. Machine learning techniques based on electroencephalography (EEG) are showing promise for detecting driver fatigue, excelling other physiological modalities in this regard. However, it takes a lot of exertion, requires domain knowledge, and might not generalise effectively across different datasets to manually extract features from EEG signals. Therefore, investigating innovative deeplearning architectures that can effectively extract discriminative characteristics from unprocessed EEG data is necessary. This paper proposes a novel framework for driver fatigue detection from EEG signals using Continuous Wavelet Transform (CWT) and Convolutional Neural Networks (CNN). Rather than depending on hand-crafted feature extraction, we use CWT to convert EEG data into time-frequency spectrum pictures. After concatenating these spectral images from every channel, a CNN is fed to learn discriminative features for driver normal and fatigued states automatically. An average classification accuracy of 98.3% is obtained by evaluating the proposed CWTCNN system on a publicly available EEG dataset comprising recordings from twelve subjects. The results obtained indicate that the CWT-CNN framework has enormous potential to create strong driver fatigue detection systems, thereby enhancing road safety."
             }
           }
         },
         {
           "id": 3,
           "date": { "year": 2024, "month": 12 },
-          "preview": {
-            "links": [
-              {
-                "href": "https://medium.com",
-                "tooltipString": "open_website",
-                "faIcon": "fa-brands fa-medium"
-              }
-            ],
-            "screenshots": [],
-            "screenshotsAspectRatio": "",
-            "youtubeVideo": ""
-          },
           "locales": {
             "en": {
-              "title": "Working on a new {{mobile project!}}",
-              "province": "California",
-              "country": "US",
+              "title": "Hybrid Deep Learning Approach for Accurate Grape Leaf Disease Segmentation and Classification",
+              "province": "Accepted",
+              "country": "CONFERENCE (QPAIN-2025)",
               "institution": "",
-              "text": "I’m excited to share that I’m currently working on a new mobile project! Some features of this project include:",
-              "list": [
-                "Cross-platform compatibility with iOS and Android",
-                "User-friendly interface with intuitive navigation",
-                "Integration with popular APIs for enhanced functionality",
-                "Real-time data synchronization for seamless user experience"
-              ]
+              "text": "A grape, a luscious drupe, belongs to the (Vitis genus) of flowering flora. Historians posit that its genesis traces back to the Middle East, where cultivation commenced nearly 6,000–8,000 years ago. Grape pathologies are inevitable due to fluctuating climatic and ecological paradigms, with bacterial, viral, and fungal pathogens instigating early foliar afflictions. Employing deep learning (DL) and segmentation is imperative to curbing disease proliferation and fortifying viticultural resilience. Segmentation is as a linchpin in diagnosing and delineating pathological zones from verdant foliage. To amplify classification precision, DL paradigms integrate Convolutional Neural Networks (CNNs) with Recurrent Neural Networks (RNNs), specifically Gated Recurrent Units (GRU), BiDirectional Long Short-Term Memory (BiLSTM), and Long Short-Term Memory (LSTM) layers. By exploiting pre-trained CNN architectures such as DenseNet201, Xception, and InceptionV3 for spatial feature extrapolation and amalgamating them with RNN layers to discern sequential interdependencies, the model adeptly internalizes nuanced disease evolution. BiLSTM synergized with DenseNet201 exhibits a superlative accuracy of 99.83%, rendering it computationally frugal yet robust. Conventional viticulturists often grapple with precise disease discernment, incurring substantial fiscal detriments. This study accentuates imagecentric methodologies for grape leaf disease diagnostics, catalyzing avant-garde AI-driven interventions in precision agriculture"
             }
           }
         },
         {
           "id": 4,
           "date": { "year": 2025, "month": 3 },
-          "preview": {
-            "links": [],
-            "screenshots": [],
-            "screenshotsAspectRatio": "",
-            "youtubeVideo": ""
-          },
           "locales": {
             "en": {
-              "title": "Attending the {{Tech Conference 2025!}}",
-              "province": "Tokyo",
-              "country": "Japan",
-              "institution": "Tech Innovators Inc.",
-              "text": "I’m thrilled to announce that I’ll be attending the [[Tech Conference 2025]] in Tokyo, Japan! This event is a fantastic opportunity to connect with industry leaders, learn about the latest trends in technology, and share insights with fellow tech enthusiasts. I’m looking forward to engaging in discussions, attending workshops, and exploring innovative solutions that are shaping the future of our industry. If you’re attending the conference, let’s connect! I’d love to meet fellow developers and tech lovers. Stay tuned for updates and highlights from the event!"
+              "title": "Optimization of Power Plant Performance Using Multi-Feature Data Analysis for Energy Dispatch and Load Management",
+              "province": "Under Review",
+              "country": "JOURNAL",
+              "institution": "Updaing....."
             }
           }
         },
         {
           "id": 5,
           "date": { "year": 2025, "month": 6 },
-          "preview": {
-            "links": [
-              {
-                "href": "https://google.com",
-                "tooltipString": "open_website",
-                "faIcon": "fa-solid fa-link"
-              },
-              {
-                "href": "https://github.com/ryanbalieiro/react-portfolio-template",
-                "tooltipString": "see_on_github",
-                "faIcon": "fa-brands fa-github"
-              }
-            ],
-            "screenshots": [],
-            "screenshotsAspectRatio": "",
-            "youtubeVideo": ""
-          },
           "locales": {
             "en": {
-              "title": "Launched my {{personal website!}}",
-              "province": "California",
-              "country": "US",
+              "title": "Deep Learning for Scientific Image Classification: A Comparative Analysis of CNN,ConvNeXt, EfficientNet, and Vision Transformers",
+              "province": "Under Review",
+              "country": "JOURNAL",
               "institution": "",
-              "text": "I’m excited to announce the launch of my [[personal website]]! 🎉 This platform is a space where I can share my projects, blog posts, and insights into the world of technology and development. It’s been a labor of love, and I can’t wait for you all to explore it. Here are some highlights of what you can find on the site:",
-              "list": [
-                "Portfolio showcasing my projects and contributions",
-                "Blog with articles on technology, coding, and personal experiences",
-                "Contact form for inquiries and collaborations",
-                "Links to my social media profiles and GitHub"
-              ]
+              "text": "Updaing....."
             }
           }
         }
