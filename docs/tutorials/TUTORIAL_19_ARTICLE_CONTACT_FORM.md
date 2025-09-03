@@ -15,7 +15,7 @@ To configure your EmailJS integration, follow these steps:
 - Create a free EmailJS account (https://www.emailjs.com/)
 - In your EmailJS account panel, create an email service, which configures the provider that will send the emails (e.g., a Gmail or iCloud account).
 - Next, on your dashboard, create a new ``Contact Us`` email template.
-- On the template edit page, set a subject like: ``React Portfolio - New message from {{name}}``
+- On the template edit page, set a subject like: ``Portfolio - New message from {{name}}``
 - Make sure the field ``To Email`` field on the right bar is set to the email address where you want to receive the messages.
 - In the template body, you can click on ``Edit Content``, then ``Code Editor``, and paste the following code snippet:
 

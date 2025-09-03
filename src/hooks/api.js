@@ -49,7 +49,7 @@ const validators = {
                 custom_subject: subject,
                 message: message,
                 custom_source: utils.url.getAbsoluteLocation(),
-                custom_source_name: "React Portfolio"
+                custom_source_name: "Portfolio"
             }
         }
     }
