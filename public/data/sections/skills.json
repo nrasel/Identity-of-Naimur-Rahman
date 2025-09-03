@@ -364,7 +364,7 @@
           "img": "",
           "faIcon": "fa-solid fa-life-ring",
           "faIconColors": { "bg": "", "fill": "#326CE5" },
-          "percentage": 35,
+          "percentage": 45,
           "locales": {
             "en": {
               "title": "PostgreSQL",

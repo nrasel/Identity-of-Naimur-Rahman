@@ -29,7 +29,7 @@
           "dateEnd": { "year": 2022, "month": 4 },
           "locales": {
             "en": {
-              "title": "{{Frontend}} Developer",
+              "title": "{{Frontend}} Developer(Intern)",
               "province": "NAKAMATCHI",
               "country": "Japan",
               "institution": "Dutypedia Private Limited",
@@ -66,7 +66,6 @@
             }
           }
         }
-        
       ]
     }
   ]

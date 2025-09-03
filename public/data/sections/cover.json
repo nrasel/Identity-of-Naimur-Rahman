@@ -6,24 +6,6 @@
         "title_short_nav": "About me",
         "title_long_prefix": "Hello...",
         "title_long": "I'm {{Naimur Rahman!}}"
-      },
-      "es": {
-        "title_short": "¡Saludos!",
-        "title_short_nav": "Sobre mí",
-        "title_long_prefix": "Hola...",
-        "title_long": "Soy {{Naimur Rahman!}}"
-      },
-      "fr": {
-        "title_short": "Salut !",
-        "title_short_nav": "À propos",
-        "title_long_prefix": "Salut...",
-        "title_long": "Je suis {{Naimur Rahman !}}"
-      },
-      "ko": {
-        "title_short": "환영합니다!",
-        "title_short_nav": "소개",
-        "title_long_prefix": "안녕하세요...",
-        "title_long": "저는 {{최민석}}입니다!"
       }
     }
   },
@@ -56,12 +38,21 @@
         },
         {
           "id": 3,
-          "label": "@naimur",
+          "label": "GitHub",
           "link": {
             "href": "https://github.com/nrasel",
             "tooltipString": "see_on_github"
           },
           "faIcon": "fa-brands fa-github"
+        },
+        {
+          "id": 4,
+          "label": "CV",
+          "link": {
+            "href": "https://drive.google.com/file/d/1CRmJGWzr4l-A_NI676iNSSkp20v2quWm/view?usp=sharing",
+            "tooltipString": "see_on_drive"
+          },
+          "faIcon": "fa-solid fa-file-lines"
         }
       ]
     },

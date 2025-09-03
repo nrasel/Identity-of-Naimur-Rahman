@@ -177,26 +177,37 @@
         {
           "id": 6,
           "categoryId": "category_web",
-          "img": "images/pictures/portfolio-project-logo-5.png",
+          "img": "images/pictures/portfolio-project-logo-3.png",
           "faIcon": "",
           "faIconColors": { "bg": "", "fill": "" },
           "preview": {
             "links": [
               {
-                "href": "https://google.com",
-                "tooltipString": "open_website",
-                "faIcon": "fa-solid fa-link"
+                "href": "https://github.com/nrasel/Car-sale-client-side-code",
+                "tooltipString": "see_on_github",
+                "faIcon": "fa-brands fa-github"
+              },
+              {
+                "href": "https://github.com/nrasel/car-sale-server-side-code",
+                "tooltipString": "see_on_github",
+                "faIcon": "fa-brands fa-github"
               }
             ],
-            "screenshots": [],
-            "screenshotsAspectRatio": "",
-            "youtubeVideo": ""
+            "screenshots": ["images/pictures/SubStation.PNG"],
+            "screenshotsAspectRatio": "16:9"
           },
           "locales": {
             "en": {
-              "title": "Sweet Scoops",
-              "text": "A recipe website built with <b>WordPress</b> and WooCommerce, featuring a rich collection of <b>dessert recipes</b> and an integrated e-commerce platform.",
-              "tags": ["WooCommerce", "Food", "Desserts"]
+              "title": "Car Sale Website",
+              "text": "Awesome responsive website.In this website using awesome feature with admin panel. User can order product and cancel this product. User can rate our service. In this website using react node mongo express etc",
+              "tags": [
+                "ReactJs",
+                "Bootstrap",
+                "Firebase",
+                "MongoDB",
+                "NodeJs",
+                "ExpressJs"
+              ]
             }
           }
         },
@@ -209,76 +220,19 @@
           "preview": {
             "links": [
               {
-                "href": "https://google.com",
-                "tooltipString": "open_website",
-                "faIcon": "fa-solid fa-link"
+                "href": "https://github.com/nrasel/Art-Museum",
+                "tooltipString": "see_on_github",
+                "faIcon": "fa-brands fa-github"
               }
             ],
             "screenshots": [],
-            "screenshotsAspectRatio": "",
-            "youtubeVideo": ""
+            "screenshotsAspectRatio": ""
           },
           "locales": {
             "en": {
-              "title": "RockVerse",
-              "text": "A dynamic music and entertainment website developed with <b>Django</b>, showcasing rock music news, events, and <b>streaming content</b>.",
-              "tags": ["Django", "Music", "Rock"]
-            }
-          }
-        },
-        {
-          "id": 8,
-          "categoryId": "category_utilities",
-          "img": "images/pictures/portfolio-project-logo-4.png",
-          "faIcon": "",
-          "faIconColors": { "bg": "", "fill": "" },
-          "preview": {
-            "links": [],
-            "screenshots": [],
-            "screenshotsAspectRatio": "",
-            "youtubeVideo": "https://www.youtube.com/watch?v=bf3Lz33nHy0"
-          },
-          "locales": {
-            "en": {
-              "title": "Soccer Analytics",
-              "text": "An AI-powered sports analytics platform built with <b>Python</b> and <b>TensorFlow</b>, offering detailed soccer <b>predictions</b> and team management tools.",
-              "tags": ["AI", "Prediction", "Soccer"]
-            }
-          }
-        },
-        {
-          "id": 9,
-          "categoryId": "category_apps",
-          "img": "",
-          "faIcon": "fa-solid fa-truck-fast",
-          "faIconColors": { "bg": "#007396", "fill": "#EEEEEE" },
-          "preview": {
-            "links": [
-              {
-                "href": "https://apple.com",
-                "tooltipString": "see_on_app_store",
-                "faIcon": "fa-brands fa-apple"
-              },
-              {
-                "href": "https://google.com",
-                "tooltipString": "see_on_google_play",
-                "faIcon": "fa-brands fa-google-play"
-              },
-              {
-                "href": "https://windows.com",
-                "tooltipString": "see_on_windows_store",
-                "faIcon": "fa-brands fa-windows"
-              }
-            ],
-            "screenshots": [],
-            "screenshotsAspectRatio": "",
-            "youtubeVideo": ""
-          },
-          "locales": {
-            "en": {
-              "title": "QuickDrop",
-              "text": "A cross-platform delivery app built with <b>React Native</b> and a <b>Node.js backend</b>, featuring <b>real-time tracking</b> and seamless integration with multiple platforms.",
-              "tags": ["React Native", "Delivery", "Real-Time Tracking"]
+              "title": "Art Museum With World Best Artists!",
+              "text": "This is an art museum website. In this website you can see the world best artists and their paintings. You can also see the details of the artists and their paintings. You can also search for your favorite artist and painting. You can also see the contact details of the museum.",
+              "tags": ["ReactJs", "Bootstrap", "MongoDB", "NodeJs", "ExpressJs"]
             }
           }
         }
